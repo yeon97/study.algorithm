@@ -1,13 +1,16 @@
-#include <stdio.h>
+//baekjoon sort1 bubbleSort
+#include <iostream>
+using namespace std;
+
 int data[1001];
 
 int main() {
 	
 	int n, i, j, tmp;
-	scanf("%d", &n);
+	cin >> n;
 	
 	for(i=0 ; i<n ; i++) {
-		scanf("%d", &data[i]);
+		cin >> data[i];
 	}
 	
 	for(i=0 ; i<n ; i++) {
@@ -21,6 +24,6 @@ int main() {
 	}
 	
 	for(i=0 ; i<n ; i++) {
-		printf("%d\n", data[i]);
+		cout << data[i];
 	}
 }
